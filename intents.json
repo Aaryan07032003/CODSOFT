@@ -1,0 +1,94 @@
+{
+    "intents": [
+        {
+            "tag":"greetings",
+            "patterns":[
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there",
+                "Hello",
+                "Good day"
+            ],
+            "responses":[
+                "Hey",
+                "Hello, Thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can i help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns":[
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses":[
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come Back again soon"
+            ]
+        },
+        {
+            "tag":"thanks",
+            "patterns":[
+                "Thanks",
+                "Thank You"
+            ],
+            "responses":[
+                "Happy to help",
+                "Any time"
+            ]
+        },
+        {
+            "tag":"codsoft",
+            "patterns":[
+                "Can you provide information about Codsoft?",
+                "What is Codsoft?",
+                "Tell me more about Codsoft."
+            ],
+            "responses":[
+                "CodSoft are IT services and IT consultancy that specializes in creating innovative solutions for businesses. It is passionate about technology and believe in the power of software to transform the world. ",
+                "CodSoft delivers innovative IT services and consultancy, dedicated to leveraging technology's power to transform the business landscape. Passionate about creating impactful solutions, they shape a tech-driven future."
+            ]
+        },
+        {
+            "tag":"internships",
+            "patterns":[
+                "What types of internship programs are available at Codsoft?",
+                "Can you provide information about the internship opportunities offered by Codsoft?",
+                "In what areas does Codsoft provide internship programs?",
+                "Could you outline the internship offerings at Codsoft?"
+            ],
+            "responses":[
+                "Codsoft offers internships in Web Development, Android Development, Data Science,  Java Programming, C++ Programming, Python Programming, UI/UX Design, Artificial intelligence and Machine learning",
+                "Codsoft provides internship opportunities across a spectrum of domains, including Web Development, Android Development, Data Science, Java, C++, Python Programming, UI/UX Design, Artificial Intelligence, and Machine Learning."
+            ]
+        },
+        {
+            "tag":"contact",
+            "patterns":[
+                "How can we contact with Codsoft?",
+                "How can one initiate contact with Codsoft?",
+                "In what ways can we get in touch with Codsoft?"
+            ],
+            "responses":[
+                "To reach out to Codsoft, you can use the email address contact@codsoft.in",
+                "Get in touch with Codsoft by sending an email to contact@codsoft.in."
+            ]
+        },
+        {
+            "tag":"mission",
+            "patterns":[
+                "Could you share Codsoft's mission and vision?",
+                "What is outlined in the mission and vision statements of Codsoft?",
+                "Can you provide insights into the mission and vision guiding Codsoft's endeavors?"
+            ],
+            "responses":[
+                " Codsoft's mission revolves around iterative software development, prioritizing continual enhancement based on feedback, technology evolution, and industry trends. The vision centers on creating innovative solutions that transcend technological limits, exploring new ideas, and enhancing user lives through pioneering software development.",
+                " Codsoft's mission underscores iterative software development, focusing on continuous improvement through feedback, technology evolution, and industry trends. The vision centers on creating pioneering solutions, exploring emerging technologies, and enhancing users' lives through innovative software development that pushes technological boundaries."
+            ]
+        }
+    ]
+}
